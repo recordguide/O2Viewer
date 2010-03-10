@@ -9,11 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FilesViewController : UITableViewController {
-
-	UITableView *myTableView;
+@interface FilesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
+	NSMutableArray* Foldercontents;
 }
-
-@property (nonatomic, retain) IBOutlet UITableView *myTableView;
 
 @end

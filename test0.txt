@@ -1,0 +1,10 @@
+첨부 파일을 보면, 어제 MainWindow.xib 파일에서 viewController의 Class Property가 UIViewController 이더군요.
+그래서 그것을 변경하였습니다. 예를 들어 첫번째 view Controller의 경우 FileViewController가 되겠네요.
+
+그리고 FileViewController는 UITableViewController 를 상속 받는게 좋을 것 같습니다.
+DataSource와 Delegate 도 설정해야 할 것 같고 tableView 에 대한 outlet 설정도 필요할 것 같습니다.
+
+한달동안 아이폰 프로그래밍을 보지 않다가 갑자기 하려다 보니, 간단한 것도 잊어 먹네요.
+역시 이직 사유 추가입니다. ^^ 
+
+빠른 시일 내로 소스 저장소를 찾아서 사용 방법과 함께 올려드리겠습니다.
