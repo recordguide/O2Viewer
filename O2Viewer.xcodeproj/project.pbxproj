@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3D0B50114921EE00AC752C /* test0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D0B4D114921ED00AC752C /* test0.txt */; };
+		0C3D0B51114921EE00AC752C /* test1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D0B4E114921EE00AC752C /* test1.txt */; };
+		0C3D0B52114921EE00AC752C /* test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D0B4F114921EE00AC752C /* test2.txt */; };
 		0C9909A811472E71002553E2 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9909A711472E71002553E2 /* ContentsViewController.m */; };
 		0C9909B411472F04002553E2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909AD11472F04002553E2 /* MainWindow.xib */; };
 		0C9909B511472F04002553E2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909AE11472F04002553E2 /* FirstViewController.xib */; };
 		0C9909B611472F04002553E2 /* ContentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909AF11472F04002553E2 /* ContentsViewController.xib */; };
 		0C9909B711472F04002553E2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909B011472F04002553E2 /* SecondViewController.xib */; };
 		0C9909B811472F04002553E2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909B111472F04002553E2 /* ThirdViewController.xib */; };
-		0C9909B911472F04002553E2 /* O2Viewer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909B211472F04002553E2 /* O2Viewer-Info.plist */; };
 		0C9909BA11472F04002553E2 /* icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0C9909B311472F04002553E2 /* icon.PNG */; };
 		1D3623260D0F684500981E51 /* O2ViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* O2ViewerAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -26,11 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3D0B4D114921ED00AC752C /* test0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test0.txt; sourceTree = "<group>"; };
+		0C3D0B4E114921EE00AC752C /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		0C3D0B4F114921EE00AC752C /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
 		0C9909A611472E71002553E2 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
 		0C9909A711472E71002553E2 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
-		0C9909A911472E97002553E2 /* test0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test0.txt; sourceTree = "<group>"; };
-		0C9909AA11472E97002553E2 /* test1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
-		0C9909AB11472E97002553E2 /* test2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
 		0C9909AD11472F04002553E2 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		0C9909AE11472F04002553E2 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		0C9909AF11472F04002553E2 /* ContentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +119,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C3D0B4D114921ED00AC752C /* test0.txt */,
+				0C3D0B4E114921EE00AC752C /* test1.txt */,
+				0C3D0B4F114921EE00AC752C /* test2.txt */,
 				0C9909AD11472F04002553E2 /* MainWindow.xib */,
 				0C9909AE11472F04002553E2 /* FirstViewController.xib */,
 				0C9909AF11472F04002553E2 /* ContentsViewController.xib */,
@@ -124,9 +129,6 @@
 				0C9909B111472F04002553E2 /* ThirdViewController.xib */,
 				0C9909B211472F04002553E2 /* O2Viewer-Info.plist */,
 				0C9909B311472F04002553E2 /* icon.PNG */,
-				0C9909A911472E97002553E2 /* test0.txt */,
-				0C9909AA11472E97002553E2 /* test1.txt */,
-				0C9909AB11472E97002553E2 /* test2.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -188,8 +190,10 @@
 				0C9909B611472F04002553E2 /* ContentsViewController.xib in Resources */,
 				0C9909B711472F04002553E2 /* SecondViewController.xib in Resources */,
 				0C9909B811472F04002553E2 /* ThirdViewController.xib in Resources */,
-				0C9909B911472F04002553E2 /* O2Viewer-Info.plist in Resources */,
 				0C9909BA11472F04002553E2 /* icon.PNG in Resources */,
+				0C3D0B50114921EE00AC752C /* test0.txt in Resources */,
+				0C3D0B51114921EE00AC752C /* test1.txt in Resources */,
+				0C3D0B52114921EE00AC752C /* test2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

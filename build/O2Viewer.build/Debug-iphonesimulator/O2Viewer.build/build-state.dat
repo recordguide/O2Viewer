@@ -1,7 +1,7 @@
 TO2Viewer
 v7
 r0
-t289877815.407663
+t290005503.779389
 cCheck dependencies
 cProcessInfoPlistFile /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/Info.plist O2Viewer-Info.plist
 cCompileXIB /Users/hwanghee/Documents/cocoa_source/O2Viewer/MainWindow.xib
@@ -9,8 +9,10 @@ cCompileXIB /Users/hwanghee/Documents/cocoa_source/O2Viewer/FirstViewController.
 cCompileXIB /Users/hwanghee/Documents/cocoa_source/O2Viewer/ContentsViewController.xib
 cCompileXIB /Users/hwanghee/Documents/cocoa_source/O2Viewer/SecondViewController.xib
 cCompileXIB /Users/hwanghee/Documents/cocoa_source/O2Viewer/ThirdViewController.xib
-cCopyPlistFile /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/O2Viewer-Info.plist O2Viewer-Info.plist
 cCpResource build/Debug-iphonesimulator/O2Viewer.app/icon.PNG icon.PNG
+cCpResource build/Debug-iphonesimulator/O2Viewer.app/test0.txt test0.txt
+cCpResource build/Debug-iphonesimulator/O2Viewer.app/test1.txt test1.txt
+cCpResource build/Debug-iphonesimulator/O2Viewer.app/test2.txt test2.txt
 cProcessPCH /var/folders/kR/kRX5nd5CEGSM60fIjyqIVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/O2Viewer_Prefix-bncedgttbqhlwnbiinvjgafxaero/O2Viewer_Prefix.pch.gch O2Viewer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/Objects-normal/i386/main.o /Users/hwanghee/Documents/cocoa_source/O2Viewer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/Objects-normal/i386/O2ViewerAppDelegate.o /Users/hwanghee/Documents/cocoa_source/O2Viewer/Classes/O2ViewerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -151,8 +153,8 @@ t1266498979
 s17583
 
 N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app
-t1268185015
-s408
+t1268312703
+s510
 
 N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app.dSYM
 t1268185015
@@ -198,6 +200,18 @@ N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2V
 t1268185010
 s3366
 
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/test0.txt
+t1268312703
+s744
+
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/test1.txt
+t1268312703
+s24
+
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/test2.txt
+t1268312703
+s20
+
 N/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/Objects-normal/i386/ContentsViewController.o
 t1268185013
 s31972
@@ -238,6 +252,21 @@ t1265892425
 s347
 i<UIKit/UIKit.h>
 
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/test0.txt
+c000000004B86773800000000000002E8
+t1267103544
+s744
+
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/test1.txt
+c000000004B8FB29A0000000000000018
+t1267708570
+s24
+
+N/Users/hwanghee/Documents/cocoa_source/O2Viewer/test2.txt
+c000000004B8FA9FA0000000000000014
+t1267706362
+s20
+
 N/var/folders/kR/kRX5nd5CEGSM60fIjyqIVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/O2Viewer_Prefix-bncedgttbqhlwnbiinvjgafxaero/O2Viewer_Prefix.pch.gch
 t1268185013
 s13026768
@@ -249,7 +278,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies289877800#289877800#0(115"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'O2Viewer-Info.plist'.1(22@108"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'O2Viewer-Info.plist'.289877800#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies290005503#290005503#0(0"0(0#1#0"7947009927035180032#0"0#
 
 CCompileC build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/Objects-normal/i386/ContentsViewController.o /Users/hwanghee/Documents/cocoa_source/O2Viewer/Classes/ContentsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s289877813.693074
@@ -387,6 +416,33 @@ xbuild/Debug-iphonesimulator/O2Viewer.app/icon.PNG
 xicon.PNG
 lSLF07#2@13"Copy icon.PNG289877810#289877810#0(0"0(0#0#56"/Users/hwanghee/Documents/cocoa_source/O2Viewer/icon.PNG4300911832#480"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hwanghee/Documents/cocoa_source/O2Viewer/icon.PNG /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
 
+CCpResource build/Debug-iphonesimulator/O2Viewer.app/test0.txt test0.txt
+s290005503.686685
+e290005503.736871
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/O2Viewer.app/test0.txt
+xtest0.txt
+lSLF07#2@14"Copy test0.txt290005503#290005503#0(0"0(0#0#57"/Users/hwanghee/Documents/cocoa_source/O2Viewer/test0.txt32651299169239152#481"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hwanghee/Documents/cocoa_source/O2Viewer/test0.txt /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
+
+CCpResource build/Debug-iphonesimulator/O2Viewer.app/test1.txt test1.txt
+s290005503.707158
+e290005503.751790
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/O2Viewer.app/test1.txt
+xtest1.txt
+lSLF07#2@14"Copy test1.txt290005503#290005503#0(0"0(0#0#57"/Users/hwanghee/Documents/cocoa_source/O2Viewer/test1.txt4300911832#481"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hwanghee/Documents/cocoa_source/O2Viewer/test1.txt /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
+
+CCpResource build/Debug-iphonesimulator/O2Viewer.app/test2.txt test2.txt
+s290005503.709416
+e290005503.751965
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/O2Viewer.app/test2.txt
+xtest2.txt
+lSLF07#2@14"Copy test2.txt290005503#290005503#0(0"0(0#0#57"/Users/hwanghee/Documents/cocoa_source/O2Viewer/test2.txt4300911832#481"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hwanghee/Documents/cocoa_source/O2Viewer/test2.txt /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
+
 CGenerateDSYMFile /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app.dSYM /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app/O2Viewer
 s289877815.198771
 e289877815.387423
@@ -429,10 +485,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile O2Viewer_Prefix.pch289877810#289877813#0(0"0(0#0#67"/Users/hwanghee/Documents/cocoa_source/O2Viewer/O2Viewer_Prefix.pch4300911832#1860"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/O2Viewer-generated-files.hmap -I/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/O2Viewer-own-target-headers.hmap -I/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/O2Viewer-all-target-headers.hmap -iquote /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/O2Viewer-project-headers.hmap -F/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator -I/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/include -I/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/DerivedSources/i386 -I/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/O2Viewer.build/Debug-iphonesimulator/O2Viewer.build/DerivedSources -c /Users/hwanghee/Documents/cocoa_source/O2Viewer/O2Viewer_Prefix.pch -o /var/folders/kR/kRX5nd5CEGSM60fIjyqIVE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/O2Viewer_Prefix-bncedgttbqhlwnbiinvjgafxaero/O2Viewer_Prefix.pch.gch0#
 
 CTouch /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app
-s289877815.387519
-e289877815.407595
+s290005503.753115
+e290005503.779322
 r1
 xTouch
 x/Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app
-lSLF07#2@94"Touch /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app289877815#289877815#0(0"0(0#0#0"4300911832#297"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
+lSLF07#2@94"Touch /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app290005503#290005503#0(0"0(0#0#0"4300911832#297"    cd /Users/hwanghee/Documents/cocoa_source/O2Viewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hwanghee/Documents/cocoa_source/O2Viewer/build/Debug-iphonesimulator/O2Viewer.app0#
 
